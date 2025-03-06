@@ -41,8 +41,6 @@ class RowingBoat:
             raise BoatException("Cannot launch without oars")
         self.in_water = True
 
-        self.in_water = True
-
     def remove_passenger(self, *args):
         if self.passengers <= 0:
             raise BoatException("No passengers to remove")
